@@ -1363,7 +1363,7 @@ async def edit_cell(
                     "notebookPath": file_path,
                     "cellId": cell_id,
                     "content": content,
-                    "showDiff": False,
+                    "showDiff": True,
                 },
             )
         if cell_type is not None:
